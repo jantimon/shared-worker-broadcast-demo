@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Shared Workers broadcast example</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Shared<br>Workers<br>broadcast<br>example</h1>
+
+  <div class="controls" tabindex="0">
+
+    <form>
+      <div>
+        <label for="message">Message</label>
+        <input type="text" id="message" value="0">
+      </div>
+    </form>
+
+    <p id="result" class="result1">Result: 0</p>
+
+    <p><a href="index.html" target="_blank">Open second worker page</a></p>
+
+  </div>
+
+
+  <a href="http://mdn.github.io/simple-shared-worker/" target="_blank">Original Demo</a>
+
+  <script src="message.js"></script>
+  <script src="nosubmit.js"></script>
+</body>
+
+</html>
